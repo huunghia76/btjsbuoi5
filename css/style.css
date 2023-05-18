@@ -1,0 +1,44 @@
+input,select{
+    padding: 15px 10px;
+}
+.btn-submit{
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-submit:hover{
+   background-color: #000000bd;
+}
+.result{
+    color: rgb(196, 0, 0);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* bài tập 1 */
+.bai1{
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+/* bài tập 2 */
+.bai2{
+    background-color: yellowgreen;
+    padding: 50px;
+}
+/* bài tập 3 */
+.bai3{
+    background-color: cadetblue;
+    padding: 50px;
+}
+/* bài tập 4 */
+.bai4{
+    background-color: coral;
+    padding: 50px;
+}
+#inputConect{
+    display: none;
+}

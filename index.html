@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="bai1">
+        <h2>Bài tập 1</h2>
+        <input id="benchmarkInput" type="text" placeholder="Điểm chuẩn" />
+        <input id="subject1Input" type="text" placeholder="Điểm Môn 1" />
+        <input id="subject2Input" type="text" placeholder="Điểm Môn 2" />
+        <input id="subject3Input" type="text" placeholder="Điểm Môn 3" />
+        <select id="areaSelect">
+            <option>Khu vực</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="X">Không</option>
+        </select>
+        <select id="typeSelect">
+            <option>Loại đối tượng</option>
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+            <option value="0">Không</option>
+        </select>
+        <p></p>
+        <button id="submit1" class="btn-submit">Submit</button>
+        <p class="alert">Tổng điểm : <span id="result1" class="result"></span> </p>
+    </div>
+
+    <div class="bai2">
+        <h2>Bài tập 2</h2>
+        <input id="bt2Name" type="text" class="form-control" placeholder="Nhập Tên  ">
+        <input id="bt2Kw" type="text" class="form-control" placeholder="Nhập số kw ">
+        <p></p>
+        <button id="submit2" class="btn-submit">Submit</button>
+        <p class="alert">Kết quả : <span id="result2" class="result"></span> </p>
+    </div>
+
+    <div class="bai3">
+        <h2>Bài tập 3</h2>
+        <input id="bt3Name" type="text" class="form-control" placeholder="Nhập Họ Tên  ">
+        <input id="totalAnnualIncome" type="text" class="form-control" placeholder="Nhập tổng thu nhập năm ">
+        <input id="dependentPerson" type="text" class="form-control" placeholder="Nhập số người phụ thuộc ">
+        <p></p>
+        <button id="submit3" class="btn-submit">Submit</button>
+        <p class="alert"><span id="result3" class="result"></span> </p>
+    </div>
+
+    <div class="bai4">
+        <h2>Bài tập 4</h2>
+        <select name="" id="typeCustomer">
+            <option selected>Chọn loại khách hàng</option>
+            <option value="1">Nhà Dân</option>
+            <option value="2">Doanh nghiệp</option>
+        </select>
+        <input id="inputIdCustomer" type="text" class="form-control" placeholder="Mã khách hàng ">
+        <input id="inputChannelNumber" type="text" class="form-control" placeholder="Số kênh cao cấp">
+        <input id="inputConect" type="text" class="form-control" placeholder="Số kết nối">
+        <p></p>
+        <button id="submit4" class="btn-submit">Submit</button>
+        <p class="alert">Tổng tiền cáp phải trả :<span id="result4" class="result"></span> </p>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+
+</html>
